@@ -10,7 +10,8 @@ public class Formatacoes {
                 palavras[i] = palavras[i].substring(0, 1).toUpperCase() + palavras[i].substring(1);
             }
         }
-        palavras[palavras.length - 1] = palavras[palavras.length - 1].substring(0, 1).toUpperCase() + palavras[palavras.length - 1].substring(1);
+        palavras[palavras.length - 1] = palavras[palavras.length - 1].substring(0, 1).toUpperCase() +
+                palavras[palavras.length - 1].substring(1);
         return String.join(" ", palavras);
     }
 

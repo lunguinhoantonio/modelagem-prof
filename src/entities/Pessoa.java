@@ -34,6 +34,7 @@ public abstract class Pessoa {
 
     public void setSexo(char sexo) {
         this.sexo = sexo;
+        setSexoExpandido();
     }
 
     public String getSexoExpandido() {
